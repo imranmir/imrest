@@ -2,6 +2,6 @@ package com.im.demo
 
 class Variation {
 
-    static constraints = {
-    }
+    String variation
+    static belongsTo = [phone: Phone]
 }

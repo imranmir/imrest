@@ -4,7 +4,7 @@ class Phone {
  
  String name
  String code
- BigDeciaml price
+ BigDecimal price
  
  static belongsTo = [manufecturer: Manufecturer]
  static hasMany = [variations: Variation]
