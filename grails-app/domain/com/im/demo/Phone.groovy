@@ -1,5 +1,8 @@
 package com.im.demo
 
+import grails.rest.Resource
+
+//@Resource(uri= "/phones", formats= ["json","xml"])
 class Phone {
  
  String name

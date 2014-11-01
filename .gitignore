@@ -1,0 +1,11 @@
+target
+.idea
+*.iml
+nohup.out
+*.ipr
+*.iws
+*.log.*
+*.log
+*.db
+grails-app/conf/MyLocalConfig.groovy
+out
